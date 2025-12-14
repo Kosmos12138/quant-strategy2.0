@@ -1,0 +1,36 @@
+# Multi-Factor Stock Selection Strategy Requirements
+# Python 3.8+ recommended
+
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.23.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scipy>=1.9.0
+scikit-learn>=1.1.0
+
+# Optional dependencies for enhanced functionality
+# ta-lib>=0.4.24  # Technical analysis library (might need separate installation)
+statsmodels>=0.13.0  # Statistical models
+# arch>=5.3.0  # ARCH/GARCH models for volatility
+# cvxpy>=1.2.0  # Convex optimization for portfolio
+# pyportfolioopt>=1.5.0  # Portfolio optimization
+joblib>=1.2.0  # Parallel processing
+tqdm>=4.64.0  # Progress bars
+
+# Jupyter environment (for notebooks)
+jupyter>=1.0.0
+ipython>=8.4.0
+ipywidgets>=8.0.0
+
+# Development and testing
+pytest>=7.0.0
+black>=22.0.0  # Code formatting
+flake8>=5.0.0  # Code linting
+pylint>=2.15.0
+mypy>=0.990.0  # Type checking
+
+# Documentation
+sphinx>=5.0.0
+numpydoc>=1.5.0
+sphinx-rtd-theme>=1.0.0
